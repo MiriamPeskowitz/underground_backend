@@ -1,6 +1,6 @@
 class TopicSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :name, :site_id
+  attributes :name 
   
   has_many :sites
   # note_id 

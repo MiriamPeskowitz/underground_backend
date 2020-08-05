@@ -16,9 +16,9 @@ Note.delete_all
 # marita = User.create!(name: "Marita", email: "marita@mail.com")
 
 #topics
-underground = Topic.create!(name: "Underground Railroad")
-ona = Topic.create!(name: "Ona Judge Sites")
-protest = Topic.create!(name: "Protest")
+underground = Topic.create!(name: "Underground Railroad-Ready to Go!")
+ona = Topic.create!(name: "Ona Judge Sites-Coming Soon")
+protest = Topic.create!(name: "Protest-Coming Soon")
 
 # #note
 # n = Note.create!(title: "inspire", body: "looking at this site...", site_id: belmont.id)
