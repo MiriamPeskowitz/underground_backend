@@ -9,6 +9,7 @@
 # User.delete_all
 Topic.delete_all
 Site.delete_all
+Note.delete_all
 
 
 #user
@@ -19,6 +20,8 @@ underground = Topic.create!(name: "Underground Railroad")
 ona = Topic.create!(name: "Ona Judge Sites")
 protest = Topic.create!(name: "Protest")
 
+# #note
+# n = Note.create!(title: "inspire", body: "looking at this site...", site_id: belmont.id)
 
 #site 
 belmont = Site.create!(name: "Belmont Mansion", address: "2000 Belmont Mansion Drive", city: "Philadelphia", state: "PA", zipcode: "19131", image_url: "https://res.cloudinary.com/tech-stories/image/upload/v1582850784/belmont.png", description: "This 1742 mansion belonged to Judge Richard Peters, who purchased enslaved people in order to free them and then he hid people who were fugitives from slavery in his attic. The Museum here tells of Cornelia Wells, a freed African American woman.", topic_id: underground.id )

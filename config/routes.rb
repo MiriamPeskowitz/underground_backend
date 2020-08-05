@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   	namespace :v1 do
   		resources :sites, only: [:index]
   		resources :topics, only: [:index]
+  		resources :notes, only: [:create]
 		end
 	end
 end
