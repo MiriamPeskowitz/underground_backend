@@ -3,5 +3,5 @@ class TopicSerializer
   attributes :name, :sites
   
   has_many :sites
-  # note_id 
+  has_many :notes, through: :sites
 end
