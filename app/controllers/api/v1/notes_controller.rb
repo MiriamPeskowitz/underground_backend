@@ -14,6 +14,11 @@ class Api::V1::NotesController < ApplicationController
 		end
 	end
 
+	def show 
+		note = Note.find(params[:id])
+		render json: NoteSerializer.new(note)
+	end
+
 	private
 	def note_params
 		params.require(:note).permit(:title, :body, :site_id)
