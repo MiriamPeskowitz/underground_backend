@@ -1,4 +1,4 @@
 class Note < ApplicationRecord
   belongs_to :site
-  # belongs_to :topic, through: :site
+  has_many :topics, through: :site
 end

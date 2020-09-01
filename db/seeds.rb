@@ -55,6 +55,8 @@ bridge = Site.create!(name: "Covered Bridge", image_url: "https://upload.wikimed
 
 valley_green = Site.create!(name: "Valley Green", image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/A591%2C_Valley_Green_Inn%2C_Wissahickon_Valley_Park%2C_Philadelphia%2C_Pennsylvania%2C_United_States%2C_2017_-_9969.jpg/800px-A591%2C_Valley_Green_Inn%2C_Wissahickon_Valley_Park%2C_Philadelphia%2C_Pennsylvania%2C_United_States%2C_2017_-_9969.jpg", topic_id: wissahickon.id)
 
+
+#Notes
 n1 = Note.create!(:body => "so near my house, channel through time", site_id: johnson_house.id)
 
 n2 = Note.create!(:body => "Hiding in plain sight, here all along", site_id: st_georges.id)
